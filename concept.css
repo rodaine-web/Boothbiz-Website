@@ -13,3 +13,7 @@ html{scroll-padding-top:28px}body{overflow-wrap:break-word}.wrap{max-width:1200p
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
 
 .questionnaire-disclosure>summary span{display:block;margin:8px 0 0;font-size:12px;font-weight:400;color:var(--muted);line-height:1.7}
+
+/* Consistent email-first waitlist entry points; intake remains gated by the API. */
+.concept-actions{display:flex;align-items:center;gap:18px 24px;flex-wrap:wrap}.concept-copy #waitlist-availability{max-width:390px;margin-top:16px}.waitlist-invite{text-align:center;margin-top:32px}.waitlist-invite .footnote{margin-top:12px}footer>div:nth-child(2){flex-wrap:wrap}
+@media(max-width:700px){.concept-actions{gap:12px 18px}.concept-actions>.button{width:100%}.concept-actions>.text-link{justify-content:center;width:100%}.concept-copy #waitlist-availability{margin-inline:auto}.waitlist-invite>.button{min-width:210px}}
